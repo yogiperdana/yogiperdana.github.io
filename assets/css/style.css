@@ -4,6 +4,19 @@ header {
     flex-direction: column;
 }
 
+a { text-decoration: none; }
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
 .header-top {
     background: #1E293B;
     display: flex;
@@ -50,13 +63,17 @@ header {
 }
 
 .menu {
-    margin: 4px 4px;
+    margin: 4px 16px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 20px;
     color: #132B50;
+    align-self: center;
+}
+
+.header-bottom a {
     align-self: center;
 }
 
