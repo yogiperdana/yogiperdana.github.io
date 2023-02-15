@@ -163,3 +163,29 @@ footer {
     text-align: center;
     color: #EAC170;
 }
+
+.permohonan {
+    height: 224px;
+    background: #102B4F;
+}
+
+.permohonan p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 101px;
+    color: #FFFFFF;
+}
+
+.permohonan p small{
+    font-size: 24px;
+    line-height: 33px;
+    vertical-align: middle;
+}
+
+.button-pelatihan {
+    background: #132B50;
+    border-radius: 9999px;
+    color: #FFFFFF;
+}
